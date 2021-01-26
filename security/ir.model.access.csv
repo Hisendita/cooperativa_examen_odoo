@@ -1,0 +1,4 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_cooperativa_examen_socios,cooperativa_examen.socios,model_cooperativa_examen_socios,,1,1,1,1
+access_cooperativa_examen_productos,cooperativa_examen.productos,model_cooperativa_examen_productos,,1,1,1,1
+access_cooperativa_examen_campanya,cooperativa_examen.campanya,model_cooperativa_examen_campanya,,1,1,1,1

@@ -1,0 +1,26 @@
+<odoo>
+  <data>
+    <!-- Top menu item -->
+    <menuitem name="CooperativaExamen" id="cooperativa_examen.menu_root"/>
+    <!-- menu categories -->
+    <menuitem name="Gestion" id="cooperativa_examen.gestion" parent="cooperativa_examen.menu_root"/>
+    <menuitem name="Campaña" id="cooperativa_examen.campanya" parent="cooperativa_examen.menu_root"
+    action="cooperativa_examen.action_window_campanya"/>
+<!--
+    
+    <menuitem name="Menu 2" id="cooperativa_examen.menu_2" parent="cooperativa_examen.menu_root"/>
+-->
+    <!-- actions -->
+
+    <menuitem name="Socios" id="cooperativa_examen.socios" parent="cooperativa_examen.gestion"
+            action="cooperativa_examen.action_window_socios"/>
+
+    <menuitem name="Productos" id="cooperativa_examen.productos" parent="cooperativa_examen.gestion"
+    action="cooperativa_examen.action_window_productos"/>
+ <!--
+    
+    <menuitem name="Server to list" id="cooperativa_examen" parent="cooperativa_examen.menu_2"
+              action="cooperativa_examen.action_server"/>
+-->
+  </data>
+</odoo>
